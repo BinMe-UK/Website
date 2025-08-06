@@ -22,7 +22,6 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 40px;
     padding: 40px 0;
 }
 
@@ -31,7 +30,7 @@ header {
     font-weight: bold;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    margin-bottom: 10px;
+    margin-bottom: 00px;
     letter-spacing: 2px;
 }
 
@@ -39,7 +38,7 @@ header {
     font-size: 1.2rem;
     color: #e8f5e8;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .form-container {
@@ -55,7 +54,7 @@ header {
 .description {
     text-align: center;
     max-width: 800px;
-    margin-bottom: 20px;
+    margin-bottom: 00px;
 }
 
 .description p {
@@ -81,7 +80,7 @@ header {
 
 .pricing {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .pricing h2 {
