@@ -3,39 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BinMe - Smart Bin Reminders</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
-
+    <title>BinMe — SMS Bin Collection Reminders</title>
+    <meta name="description" content="Never miss bin day again. BinMe sends you an SMS reminder before your collection — and alerts you when dates change. Text BIN to get started.">
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1 class="title">BinMe</h1>
-            <p class="subtitle">Smart SMS reminders for your bin collection</p>
-        </header>
-        
-        <main class="form-container">
-            <div class="pricing">
-                <h2>£1 per month</h2>
+
+    <nav class="nav">
+        <div class="container">
+            <a class="nav-logo" href="/">BinMe</a>
+            <div class="nav-links">
+                <a href="faq.html">FAQ</a>
             </div>
-            <div class="description">
-                <p>BinMe is an SMS messaging service that reminds you when to put each of your bins out the evening before. Designed to eliminate all hassle surrounding putting your bins out - no need to worry about bank holidays, worker strikes, changes to schedules, and more.</p>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+            <div class="container">
+                <h1>Never miss<br>bin day again.</h1>
+                <p class="hero-sub">BinMe texts you a reminder before your collection — and lets you know when dates change due to bank holidays or bad weather.</p>
+                <div class="cta-block">
+                    <p class="cta-label">To get started, text</p>
+                    <div class="cta-pill">
+                        <span class="cta-word">BIN</span>
+                        <span class="cta-to">to</span>
+                        <!-- Replace [NUMBER] with the BinMe SMS number -->
+                        <span class="cta-number">[NUMBER]</span>
+                    </div>
+                </div>
             </div>
-            <iframe 
-                src="https://docs.google.com/forms/d/e/1FAIpQLSfXusVQmUsX1OnD103zTub8qAfOa9ZCju8WMaQUvHbBcTffwQ/viewform?embedded=true" 
-                width="100%" 
-                height="600" 
-                frameborder="0" 
-                marginheight="0" 
-                marginwidth="0">
-                Loading…
-            </iframe>
-        </main>
-        
-        <footer>
-            <p>Never miss bin day again!</p>
-        </footer>
-    </div>
+        </section>
+
+        <section class="how">
+            <div class="container">
+                <h2>How it works</h2>
+                <ol class="steps">
+                    <li>
+                        <span class="step-num">1</span>
+                        <div>
+                            <strong>Text BIN to [NUMBER]</strong>
+                            <p>No app, no account, no fuss. Just send one text.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="step-num">2</span>
+                        <div>
+                            <strong>Answer a few quick questions</strong>
+                            <p>Tell us your postcode, which bins you have, and when you'd like your reminder — evening before or morning of.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="step-num">3</span>
+                        <div>
+                            <strong>Get reminders before collection day</strong>
+                            <p>We'll text you ahead of each collection. If the date changes, we'll let you know.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>What you get</h2>
+                <ul class="feature-list">
+                    <li>Covers all bin types — general waste, recycling, food waste, and garden waste</li>
+                    <li>Alerts when your collection day changes due to bank holidays or bad weather</li>
+                    <li>Choose your reminder time — evening before or morning of collection</li>
+                    <li>Cancel anytime by texting STOP — no questions asked</li>
+                    <li>Currently covering Sevenoaks — more councils coming soon</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="container">
+                <div class="pricing-card">
+                    <div class="price">£10<span>&thinsp;/ year</span></div>
+                    <p>Cancel anytime by texting STOP. No contract, no app, no fuss.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-bottom">
+            <div class="container">
+                <h2>Ready to start?</h2>
+                <div class="cta-block">
+                    <p class="cta-label">Text</p>
+                    <div class="cta-pill">
+                        <span class="cta-word">BIN</span>
+                        <span class="cta-to">to</span>
+                        <span class="cta-number">[NUMBER]</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-brand">BinMe</p>
+            <nav class="footer-links">
+                <a href="faq.html">FAQ</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="mailto:help@binme.uk">help@binme.uk</a>
+            </nav>
+            <p class="footer-small">&copy; 2026 BinMe. UK SMS reminder service.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
