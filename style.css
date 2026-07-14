@@ -103,12 +103,15 @@ a {
     line-height: 1.7;
 }
 
-/* Centers the hero text block as a whole; text inside stays left-aligned */
 .hero-content {
     width: fit-content;
     max-width: 100%;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
+}
+
+.hero-content .cta-block {
+    justify-content: center;
 }
 
 /* CTA */
