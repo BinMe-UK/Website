@@ -92,15 +92,23 @@ a {
     font-weight: 800;
     line-height: 1.05;
     letter-spacing: -0.03em;
-    margin: 0 auto 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .hero-sub {
     font-size: 1.1rem;
     color: var(--muted);
     max-width: 500px;
-    margin: 0 auto 2.75rem;
+    margin-bottom: 2.75rem;
     line-height: 1.7;
+}
+
+/* Centers the hero text block as a whole; text inside stays left-aligned */
+.hero-content {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
 }
 
 /* CTA */
@@ -109,11 +117,6 @@ a {
     align-items: center;
     gap: 0.875rem;
     flex-wrap: wrap;
-}
-
-.hero .cta-block {
-    width: fit-content;
-    margin: 0 auto;
 }
 
 .cta-label {
